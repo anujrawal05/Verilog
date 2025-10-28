@@ -8,4 +8,5 @@ simulation/
 *.qws
 *.rpt
 *.txt
+*.bak
 .gitattributes
