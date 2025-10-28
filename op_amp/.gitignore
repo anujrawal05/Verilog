@@ -1,0 +1,11 @@
+# Intel Quartus & ModelSim generated files
+db/
+incremental_db/
+output_files/
+simulation/
+*.qpf
+*.qsf
+*.qws
+*.rpt
+*.txt
+.gitattributes
