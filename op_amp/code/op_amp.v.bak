@@ -1,0 +1,87 @@
+// Simple Operational Amplifier Model
+// This is a basic op-amp with gain and saturation
+
+module op_amp(
+    input real v_plus,      // positive input
+    input real v_minus,     // negative input  
+    output real v_out       // output
+);
+
+    real diff;              // difference between inputs
+    real gain;              // amplifier gain
+    real output_voltage;    // calculated output
+    
+    initial begin
+        gain = 100000.0;    // high gain value
+        v_out = 0.0;
+    end
+    
+    // main operation
+    always @(v_plus or v_minus) begin
+        // find the difference
+        diff = v_plus - v_minus;
+        
+        // amplify the difference
+        output_voltage = diff * gain;
+        
+        // check if output is too high or too low
+        if (output_voltage > 12.0)
+            v_out = 12.0;   // max positive voltage
+        else if (output_voltage < -12.0)
+            v_out = -12.0;  // max negative voltage
+        else
+            v_out = output_voltage;
+    end
+
+endmodule
+
+
+// Test the opamp
+module test_opamp;
+    real inp, inm, out;
+    
+    // create opamp instance
+    opamp my_opamp(
+        .v_plus(inp),
+        .v_minus(inm),
+        .v_out(out)
+    );
+    
+    initial begin
+        $display("Testing Op-Amp");
+        $display("Time | V+ | V- | Vout");
+        
+        // test 1: small positive difference
+        inp = 0.0001;
+        inm = 0.0;
+        #10;
+        $display("%0t | %f | %f | %f", $time, inp, inm, out);
+        
+        // test 2: small negative difference  
+        inp = 0.0;
+        inm = 0.0001;
+        #10;
+        $display("%0t | %f | %f | %f", $time, inp, inm, out);
+        
+        // test 3: bigger input to see saturation
+        inp = 1.0;
+        inm = 0.0;
+        #10;
+        $display("%0t | %f | %f | %f", $time, inp, inm, out);
+        
+        // test 4: negative saturation
+        inp = 0.0;
+        inm = 1.0;
+        #10;
+        $display("%0t | %f | %f | %f", $time, inp, inm, out);
+        
+        // test 5: equal inputs
+        inp = 0.5;
+        inm = 0.5;
+        #10;
+        $display("%0t | %f | %f | %f", $time, inp, inm, out);
+        
+        $finish;
+    end
+    
+endmodule 

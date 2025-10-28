@@ -1,0 +1,23 @@
+module diff_amplifier(
+    input wire clk,
+    input wire signed [15:0] v_plus,
+    input wire signed [15:0] v_minus,
+    input wire offset_null1,
+    input wire offset_null2,
+    output reg signed [15:0] diff_output
+);
+
+    wire signed [15:0] offset_correction;
+    wire signed [16:0] difference;
+    
+    // Offset correction based on null pins
+    assign offset_correction = (offset_null1 || offset_null2) ? 16'd0 : 16'd5;
+    
+    // Calculate difference
+    assign difference = v_plus - v_minus - offset_correction;
+    
+    always @(posedge clk) begin
+        diff_output <= difference[15:0];
+    end
+
+endmodule 

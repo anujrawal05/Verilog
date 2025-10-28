@@ -1,0 +1,341 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pin6_output[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pin6_output[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[2]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pin7_vcc[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pin4_vee[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pin1_offset_null",
+					"strict" : false
+				},
+				{
+					"name" : "pin5_offset_null",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pin2_inv_input[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pin3_noninv_input[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
